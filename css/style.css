@@ -9,10 +9,10 @@ main{
     background-image: url(../imeges/logo1.webp);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    /* display: flex; */
 }
 header{
-    width: 1340px;
+    max-width: 1340px;
+    width: 100%;
     height: 105px;
     margin: 0px auto;
     padding: 25px 0px;;
@@ -44,6 +44,9 @@ nav ul, .header-right a{
     border-radius: 100px;
     margin-left: 19px;
 }
+.burger{
+    display: none;
+}
 .text-wrapper{
     display: flex;
     flex-direction: column;
@@ -52,7 +55,8 @@ nav ul, .header-right a{
     margin-top: 60px;
 }
 h1{
-    width: 345px;
+    max-width: 345px;
+    width: 100%;
     height: 102px;
     color: #FFF;
     font-family: Archivo;
@@ -63,7 +67,8 @@ h1{
     text-align: center;
 }
 .text-wrapper p{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 50px;
     color: #FFF;
     text-align: center;
@@ -71,10 +76,12 @@ h1{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    line-height: 28.8px; 
     margin: 36px auto 25px;
 }
 .text-wrapper a{
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 50px;
     padding: 16px 49px;
     border-radius: 100px;
@@ -87,14 +94,17 @@ h1{
     font-weight: 400;
 }
 .box-information{
-    width: 1350px;
-    height: 290px;
+    max-width: 1350px;
+    width: 100%;
+    min-height: 290px;
     margin: 200px auto 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .box1, .box2, .box3, .box4{
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     height: 287px;
     padding: 39px 20px;
     background-color: #FFF;
@@ -122,37 +132,40 @@ h1{
     line-height: 25.6px;
 }
 .places-sec{
-    width: 1340px;
-    height: 1749px;
-    padding: 100px 0px;
-    margin: auto;
-    margin-bottom: 100px;
+    max-width: 1340px;
+    width: 100%;
+    min-height: 1749px;
+    margin: 160px auto 0px;
 }
 .place-logo{
     margin: 60px auto 45px;
     display: block;
 }
 .places-sec h3{
-width: 287px;
-height: 90px;
-margin: 0px auto 38px;
-color: #3B3735;
-text-align: center;
-font-family: Archivo;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; 
+    max-width: 287px;
+    width: 100%;
+    height: 90px;
+    margin: 0px auto 38px;
+    color: #3B3735;
+    text-align: center;
+    font-family: Archivo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
 }
 .travel-destinations{
-    width: 1340px;
-    height: 1305px;
+    max-width: 1340px;
+    width: 100%;
+    min-height: 1305px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 20px;
 }
 .places{
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     height: 415px;
     border-radius: 20px;
     background: #FFF;
@@ -162,7 +175,8 @@ line-height: 48px;
     text-align: center;
 }
 .places-img1{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/imege1.png);
     border-radius: 20px;
@@ -171,7 +185,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img2{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/imege2.png);
     border-radius: 20px;
@@ -180,7 +195,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img3{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image3.png);
     border-radius: 20px;
@@ -189,7 +205,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img4{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image4.png);
     border-radius: 20px;
@@ -198,7 +215,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img5{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image5.png);
     border-radius: 20px;
@@ -207,7 +225,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img6{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image6.png);
     border-radius: 20px;
@@ -216,7 +235,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img7{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image7.png);
     border-radius: 20px;
@@ -225,7 +245,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img8{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image8.png);
     border-radius: 20px;
@@ -234,7 +255,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img9{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image9.png);
     border-radius: 20px;
@@ -243,7 +265,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img10{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image10.png);
     border-radius: 20px;
@@ -252,7 +275,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img11{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image11.png);
     border-radius: 20px;
@@ -261,7 +285,8 @@ line-height: 48px;
     align-items: center;
 }
 .places-img12{
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 180px;
     background-image: url(../imeges/image12.png);
     border-radius: 20px;
@@ -271,7 +296,8 @@ line-height: 48px;
 }
 
 .price{ 
-    width: 120px;
+    max-width: 120px;
+    width: 100%;
     height: 36px;
     padding: 5px 20px;
     border-radius: 10px;
@@ -311,7 +337,8 @@ h4{
 }
 .read-more{
     display: flex;
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 50px;
     padding: 15.2px 50.971px 15.8px 51.29px;
     justify-content: center;
@@ -329,7 +356,8 @@ h4{
 }
 .all{
     display: flex;
-    width: 180px;
+    max-width: 180px;
+    width: 100%;
     height: 50px;
     padding: 14px 55px;
     justify-content: center;
@@ -353,19 +381,24 @@ footer{
     background: #F8E1DB;
 }
 .footer-box{
-    width: 1370px;
+    max-width: 1370px;
+    width: 100%;
     height: 278px;
     display: flex;
     justify-content: space-between; 
+    flex-wrap: wrap;
     margin: auto;
 }
 .box-left{
-    width: 500px;
-    height: 278px;
+    max-width: 500px;
+    width: 100%;
+    height: 180px;
+    margin-right: 300px;
 }
 .box-right{
-    width: 500px;
-    height: 300px;
+    max-width: 500px;
+    width: 100%;
+    height: 190px;
     display: flex;
     column-gap: 20px;
 }
@@ -379,7 +412,8 @@ h5{
     margin-bottom: 10px;
 }
 .box-footer1, .box-footer2, .box-footer3{
-    width: 160px;
+    max-width: 160px;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -393,13 +427,14 @@ h5{
     font-weight: 400;
     line-height: 25.6px;
 }
-.dowland{
-    margin-top: 20px;
-}
 .app{
     margin-right: 4px;
 }
 .finish{
     text-align: center;
     margin-top: 23px;
+}
+.apps{
+   max-width: 500px;
+    height: 90px;
 }

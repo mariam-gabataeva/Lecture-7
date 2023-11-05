@@ -1,0 +1,131 @@
+@media(max-width: 768px){
+    main{
+        height: 700px;
+    }
+    header{
+        max-width: 647px;
+        width: 100%;
+
+    }
+    .header-right{
+        display: none;
+    }
+    .text-wrapper p{
+        max-width: 368px;
+        width: 100%;
+        height: 79px;
+        line-height: 28.8px;
+    }
+    .burger{
+        display: none;
+    }
+    .box-information{
+        padding: 0px 39px;
+        margin: 39px auto 100px;
+        gap: 20px;
+    }
+    .places-sec{
+        margin: 450px auto 0px;
+    }
+    footer{
+        height: 657px;
+        padding: 0px 24px 0px;
+    }
+    .footer-box{
+        max-width: 690px;
+        width: 100%;
+        height: 575px;
+        padding: 100px 24px 0px;
+        gap: 20px;
+    }
+    .box-left{
+        max-width: 582px;
+        width: 100%;
+        height: 135px;
+        margin: 0px;
+    }
+}
+@media(max-width:500px){
+    main{
+        height: 700px;
+    }
+    header{
+        max-width: 360px;
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .box-information{
+        max-width: 420px;
+        width: 100%;
+        min-height: 1120px;
+        padding: 0px;
+        margin: 68px auto 0px;
+    }
+    .box1, .box2, .box3, .box4{
+        max-width: 100%;
+        width: 100%;
+        height: 260px;
+    }
+    .box1{
+        padding: 0px 63px;
+    }
+    .box2{
+        padding: 0px 36px;
+    }
+    .box3{
+        padding: 0px 36px;
+    }
+    .box4{
+        padding: 30px 33px;
+    }
+    .places-sec{
+        margin: 1000px 0px 0px;
+    }
+    .travel-destinations{
+        max-width: 420px;
+        width: 100%;
+        min-height: 5220px; 
+        padding: 0px;
+        margin: auto;
+    }
+    .places-img1, .places-img2, .places-img3, .places-img4, .places-img5, .places-img6, .places-img7, .places-img8, .places-img9, .places-img10, .places-img11, .places-img12{
+        max-width: 320px;
+        width: 100%;
+        height: 180px;
+        margin: auto;
+    }
+    .places{
+        max-width: 100%;
+        width: 100%;
+        height: 415px;
+    }
+    footer{
+        max-width: 475px;
+        width: 100%;
+        min-height: 900px;
+        padding: 0px;
+    }
+    .footer-box{
+        max-width: 398px;
+        width: 100%;
+        min-height: 810px;
+        padding: 100px 0px 0px;
+    }
+    .box-left{
+       max-width: 375px;
+       width: 100%;
+       height: 190px;
+    }
+    .box-right{
+        max-width: 375px;
+        width: 100%;
+        height: 365px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
