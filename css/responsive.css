@@ -24,6 +24,9 @@
         margin: 39px auto 100px;
         gap: 20px;
     }
+    .travel-destinations{
+        gap: 20px;
+    }
     .places-sec{
         margin: 450px auto 0px;
     }
@@ -90,7 +93,7 @@
         max-width: 420px;
         width: 100%;
         min-height: 5220px; 
-        padding: 0px;
+        padding: 0px 15px ;
         margin: auto;
     }
     .places-img1, .places-img2, .places-img3, .places-img4, .places-img5, .places-img6, .places-img7, .places-img8, .places-img9, .places-img10, .places-img11, .places-img12{
